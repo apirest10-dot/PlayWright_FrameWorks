@@ -15,6 +15,7 @@ try {
 //console.log(suppliers)
 //console.log(customer)
 test.describe('ERP Inventory Modules',()=>{
+      ExcelFileUtil.registerResultHooks();
     //check for supplier module
     for (const sup of suppliers) {
         test(`Validate Supplier ${sup.suppliername}`,async({supplierPage})=>{
