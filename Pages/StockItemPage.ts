@@ -41,7 +41,8 @@ this.clickConfirmOk =page.locator('button.ajs-button.btn.btn-primary').last()
 this.clickAlertOk =page.locator('button.ajs-button.btn.btn-primary')
 this.clickSearchPanel = page.locator('[data-caption="Search Panel"]')
 this.enterSearchTextbox =page.getByPlaceholder('Search')
-this.clickSearchBtn= page.locator('#btnsubmit')
+this.clickBtn= page.locator('#btnsubmit')
+
  
     }
     //method for add customer page
