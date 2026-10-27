@@ -7,7 +7,8 @@
     "ERp-singledata": "npx playwright test tests/ERPSingleData.spec.ts",
     "Allure-reports": "npx allure generate allure-results --clean -o allure-report && npx allure open allure-report",
     "ERP-JsonFile": "npx playwright test tests/ERPUsingJsonFile.spec.ts",
-    "ERp-ExcelFile": "npx playwright test tests/ERpUsingExcelFile.spec.ts"
+    "ERp-ExcelFile": "npx playwright test tests/ERpUsingExcelFile.spec.ts",
+    "All-test":"npx playwright test"
   },
   "keywords": [],
   "author": "",

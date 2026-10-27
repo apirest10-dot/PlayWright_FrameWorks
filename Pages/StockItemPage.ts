@@ -41,7 +41,7 @@ this.clickConfirmOk =page.locator('button.ajs-button.btn.btn-primary').last()
 this.clickAlertOk =page.locator('button.ajs-button.btn.btn-primary')
 this.clickSearchPanel = page.locator('[data-caption="Search Panel"]')
 this.enterSearchTextbox =page.getByPlaceholder('Search')
-this.clickBtn= page.locator('#btnsubmit')
+this.clickSearchBtn= page.locator('#btnsubmit')
 
  
     }
